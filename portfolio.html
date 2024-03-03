@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Portfolio</title>
+    <base href="">
+    <!-- Icon Font -->
+    <link rel="stylesheet" href="css/icofont.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="page">
+
+	<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-expand-md menu">
+					<div class="menu__logo" data-v-component-site>	
+						<a class="navbar-brand" href="/" data-v-url-params='{"host":"www.*.*"}'><span class="visually-hidden">Logo</span>
+						   <img src="./assets/images/icon/01.png" alt="Site logo" loading="lazy" class="logo-default" data-v-site-logo>
+						   <!--
+						   <img src="./images/header-logo.svg" alt="Site logo sticky" loading="lazy" class="logo-sticky" data-v-site-logo-sticky>
+						   <img src="./images/icon-01.png" alt="Site logo dark" loading="lazy" class="logo-default-dark" data-v-site-logo-dark>
+						   <!--
+						   <img src="./images/header-logo.svg" alt="Site logo dark sticky" loading="lazy" class="logo-default-dark-sticky" data-v-site-logo-dark-sticky>
+						   -->
+						</a>
+					</div>
+					
+
+					  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+
+					
+					  <div class="collapse navbar-collapse" id="navbar" data-v-component-menu="header" data-v-slug="main-menu">
+	<ul class="navbar-nav ms-auto" data-v-menu-items>
+	  <li class="nav-item dropdown position-static" data-v-menu-item data-v-class-if-has-dropdown="category.children > 0" data-v-class-if-position-static="category.has-text">
+		
+		<a class="nav-link dropdown-toggle" href="#" data-v-class-if-dropdown-toggle="category.children > 0" aria-expanded="false" data-v-menu-item-url>
+			<span data-v-menu-item-name data-v-if-not="category.type = 'text'"></span>
+			<span data-v-menu-item-content>
+				<p><img src="/media/vvveb.svg" height="24" alt="" class="me-2">Mega menu</p>
+			</span>
+		</a>
+		
+		<div class="dropdown-menu" data-v-menu-item-recursive>
+		  <div data-v-menu-item class="nav-item" data-v-class-if-dropdown="category.children > 0">
+			<a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
+				<span data-v-menu-item-name data-v-if-not="category.type = 'text'"></span>
+				<span data-v-menu-item-content>
+					<div class="row">
+						<div class="col-6 align-self-center"><img src="img/demo/video-1.jpg" alt="Post" width="250" loading="lazy" class="rounded img-fluid"></div>
+						<div class="col-6">
+							<h4>Features</h4>
+							<p class="text-muted">Just a few mentions, but there is more</p>
+							<ul class="list-unstyled">
+								<li class="text-primary">Page builder</li>
+								<li class="text-primary">Mega menu</li>
+								<li class="text-primary">Multi language</li>
+								<li class="text-primary">Advanced SEO</li>
+								<li class="text-primary">Ecommerce</li>
+							</ul>
+						</div>
+					</div>
+				</span>
+			</a>
+		  </div> 
+		  <div data-v-menu-item class="nav-item" data-v-class-if-dropdown="category.children > 0">
+			<a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
+				<span data-v-menu-item-name data-v-if-not="category.type = 'text'">Developer Documentation</span>
+				<span data-v-menu-item-content></span>
+			</a>
+		  </div> 
+		</div>
+	  </li>
+	  <li class="nav-item dropdown" data-v-menu-item>
+		<a class="nav-link dropdown-toggle" href="https://blog.vvveb.com"  data-v-menu-item-url><span data-v-menu-item-name>Blog</span></a>
+		
+			<div class="dropdown-menu" data-v-menu-item-recursive>
+			  <div data-v-menu-item class="nav-item" data-v-class-if-dropdown="category.children > 0">
+				<a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
+					<span data-v-menu-item-name data-v-if-not="category.type = 'text'">User Documentation</span>
+					<span data-v-menu-item-content></span>
+				</a>
+			  </div> 
+			  <div data-v-menu-item class="nav-item" data-v-class-if-dropdown="category.children > 0">
+				<a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
+					<span data-v-menu-item-name data-v-if-not="category.type = 'text'">Developer Documentation</span>
+					<span data-v-menu-item-content></span>
+				</a>
+			  </div> 
+			</div>
+	  </li>
+	  <li class="nav-item" data-v-menu-item>
+		<a class="nav-link" href="https://www.vvveb.com/page/contact"  data-v-menu-item-url><span data-v-menu-item-name>Contact</span></a>
+	  </li>
+	  <li class="nav-item" data-v-menu-item>
+		<a class="nav-link" href="https://www.vvveb.com"  data-v-menu-item-url><span data-v-menu-item-name>About us</span></a>
+	  </li>
+	</ul>
+<!--
+	<div class="search-area toggle-hover">
+		<form action="/search" method="get" data-v-action="/search">
+			<input type="hidden" name="route" value="search">
+			<div class="input-group">
+				<input type="search" name="search" class="form-control" id="headerSearch" placeholder="Type for search" data-v-vvveb-action="search" data-v-vvveb-on="keyup">
+				<button class="btn border-0" type="submit" title="Search">
+					<div class="la-flip-horizontal">
+						<i class="la la-search la-lg" aria-hidden="true"></i>
+					</div>
+				</button>
+			</div>			  
+		</form>
+	</div>
+-->	
+  </div>
+
+					
+					<!--
+					<div class="menu__bar">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<ul class="menu-data">
+						<li><a href="index.html" class="active-menu">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#portfolio">Work</a></li>
+						<li><a href="#blog">Blog</a></li>
+					</ul>
+					<div class="menu-button">
+						<a href="#contact" class="btn">Hire Me</a>
+					</div>
+				</nav>
+				<div class="mobile-menu">
+					<ul class="mobile-menu__main">
+						<li><a href="index.html" class="active-menu">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#portfolio">Work</a></li>
+						<li><a href="#blog">Blog</a></li>
+					</ul>
+					<div class="mobile-menu__button">
+						<a href="#contact" class="btn">Hire Me</a>
+					</div>
+				</div>
+				-->
+			
+			</div>
+		</div>
+	</div>
+</header>
+
+
+	<section  data-v-component-post>
+		
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12">
+					<div>
+						<h1 class="text-center my-5" data-v-post-name>Page title</h1>
+						
+						<div class="my-5" data-v-post-content>
+							<h2>Vivamus sed nunc in arcu cursus mollis quis et orci. Interdum et malesuada</h2>
+							<p>Mauris viverra cursus ante laoreet eleifend. Donec vel fringilla ante. Aenean finibus velit id urna vehicula, nec maximus est sollicitudin. Praesent at tempus lectus, eleifend blandit felis. Fusce augue arcu, consequat a nisl aliquet, consectetur elementum turpis. Donec iaculis lobortis nisl, et viverra risus imperdiet eu. Etiam mollis posuere elit non sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis arcu a magna sodales venenatis. Integer non diam sit amet magna luctus mollis ac eu nisi. In accumsan tellus ut dapibus blandit.</p>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>	
+	
+	<section class="my-portfolio" id="portfolio" style="background-image: url(assets/images/portfolio/bg.png);">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="section_heading text-center">My Portfolio</h2>
+			</div>
+		</div>
+		<div class="row flex-wrap">
+			<div class="column">
+				<img src="assets/images/portfolio//01.jpg" alt="Project" class="img-fluid">
+				<img src="assets/images/portfolio//04.jpg" alt="Project" class="img-fluid">
+				<img src="assets/images/portfolio//07.jpg" alt="Project" class="img-fluid">
+			</div>
+
+			<div class="column">
+				<img src="assets/images/portfolio//02.jpg" alt="Project" class="img-fluid">
+				<img src="assets/images/portfolio//05.jpg" alt="Project" class="img-fluid">
+				<img src="assets/images/portfolio//08.jpg" alt="Project" class="img-fluid">
+			</div>
+
+			<div class="column">
+				<img src="assets/images/portfolio//03.jpg" alt="Project" class="img-fluid">
+				<img src="assets/images/portfolio//06.jpg" alt="Project" class="img-fluid">
+				<img src="assets/images/portfolio//09.jpg" alt="Project" class="img-fluid">
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-12 mt-lg-5 mt-md-0 mt-2 text-center">
+				<a href="#" class="btn">View All Project</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+	<div class="copyright">
+	<p class="text-center"><span>&copy;</span> 2024-Kevin Gilbert - Powered by <a href="https://www.vvveb.com">Vvveb</a></p>
+</div>
+
+
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+
+</html>
+
